@@ -305,7 +305,7 @@ const Filters = ({ setPage }) => {
             type="surname"
             name="surname"
             id="surname"
-            className="block w-full rounded-md border-0 py-1.5 px-5 text-gray-600 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2  focus:ring-coral-red text-sm sm:leading-6"
+            className="block w-full rounded-md border-0 py-1.5 px-5 text-gray-600 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2  focus:ring-coral-red text-sm sm:leading-6 focus:outline-none"
             placeholder="np. Marki"
             onChange={(e) => setLocation(e.target.value)}
           />

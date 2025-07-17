@@ -305,7 +305,7 @@ const EditProfile = () => {
               name="name"
               value={name}
               id="name"
-              className="block w-full rounded-md border-0 py-1.5 pl-7 pr-20 text-gray-700 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2  focus:ring-coral-red sm:text-sm sm:leading-6"
+              className="block w-full rounded-md border-0 py-1.5 pl-7 pr-20 text-gray-700 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2  focus:ring-coral-red sm:text-sm sm:leading-6 focus:outline-none"
               placeholder="Jane"
               onChange={(e) => setName(e.target.value)}
             />
@@ -328,7 +328,7 @@ const EditProfile = () => {
               name="surname"
               value={surname}
               id="surname"
-              className="block w-full rounded-md border-0 py-1.5 pl-7 pr-20 text-gray-700 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2  focus:ring-coral-red sm:text-sm sm:leading-6"
+              className="block w-full rounded-md border-0 py-1.5 pl-7 pr-20 text-gray-700 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2  focus:ring-coral-red sm:text-sm sm:leading-6 focus:outline-none"
               placeholder="Doe"
               onChange={(e) => setSurname(e.target.value)}
             />

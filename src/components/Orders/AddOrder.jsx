@@ -262,16 +262,17 @@ const AddOrder = () => {
               Lokalizacja
             </label>
 
-            <div className="flex flex-row  justify-between items-center  border border-rose-500 rounded-2xl px-3 mb-2">
+            <div className="flex flex-row  justify-between items-center  border border-rose-500 rounded-2xl px-3 mb-2 ">
               <textarea
                 onChange={(e) => setLocation(e.target.value)}
                 rows="1"
                 value={location}
                 placeholder="np. Warszawa, Wawer "
-                className="w-[90%] placeholder:text-sm  py-1 text-sm text-gray-700 "
+                className="w-[90%] placeholder:text-sm  py-1 text-sm text-gray-700  focus:outline-none"
               ></textarea>
             </div>
           </div>
+
           {/*  */}
           {/*  */}
           {/* Hour Rate */}
@@ -313,7 +314,7 @@ const AddOrder = () => {
               <textarea
                 value={description}
                 placeholder="Opisz sytuację"
-                className="border text-sm text-gray-700 p-2 h-[20vh] border-coral-red w-full rounded-lg text-wrap"
+                className="border text-sm text-gray-700 p-2 h-[20vh] border-coral-red w-full rounded-lg text-wrap focus:outline-none"
                 onChange={(e) => setDescription(e.target.value)}
               ></textarea>
               <span
@@ -360,7 +361,7 @@ const AddOrder = () => {
                   rows="1"
                   value={skill}
                   placeholder='np. "miganie"'
-                  className="w-[90%] placeholder:text-sm  py-1 "
+                  className="w-[90%] placeholder:text-sm  py-1 focus:outline-none "
                 ></textarea>
               </div>
               <div className="w-100  flex justify-center">
@@ -407,7 +408,7 @@ const AddOrder = () => {
                   rows="1"
                   value={service}
                   placeholder="np. pomoc przy toalecie"
-                  className="w-[90%] placeholder:text-sm  py-1"
+                  className="w-[90%] placeholder:text-sm  py-1 focus:outline-none"
                 ></textarea>
               </div>
               <div className="w-100  flex justify-center">

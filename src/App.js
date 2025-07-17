@@ -1,4 +1,4 @@
-import { useState, useEffect, useContext, Suspense, lazy } from "react";
+import { useEffect, useContext, Suspense, lazy } from "react";
 import {
   Route,
   Routes,
@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 import PrivateRoute from "./routes/PrivateRoute";
 import AdminRoute from "./routes/AdminRoute";
-import { currentUser } from "./api";
+// import { currentUser } from "./api";
 import { ToastContainer } from "react-toastify";
 import { UserContext } from "./context/UserContext";
 import "react-toastify/dist/ReactToastify.css";

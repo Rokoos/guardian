@@ -82,7 +82,7 @@ const Orders = () => {
         )}
       </div>
 
-      <div className="w-full flex  xl:flex-row flex-col xl:mt-60  justify-center items-center   p-2 mt-6  absolute  ">
+      <div className="w-full flex  xl:flex-row flex-col xl:mt-20  justify-center items-center   p-2 mt-6  absolute  ">
         {arr.length === 0 && !isLoading && <h4>Sorry, no matches found!</h4>}
         <div className="w-full max-w-[1200px] m-auto grid place-items-center grid-cols-1 md:grid-cols-2  gap-2 p-5 mt-16    md:mt-40  ">
           {arr.length > 0 &&

@@ -11,6 +11,7 @@ import { offers } from "../../constants";
 const Orders = () => {
   const { user, isLoading, setIsLoading, filters } = useContext(UserContext);
   const { modalType, showModal } = useContext(ModalContext);
+  // console.log("modal", modalType, showModal);
   const [arr, setArr] = useState([]);
   // console.log("arr", arr);
 

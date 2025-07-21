@@ -86,11 +86,11 @@ const App = () => {
       <Nav />
       <ToastContainer />
       <Routes>
-        <Route
+        {/* <Route
           path="/"
           element={user ? <Navigate to="/orders" /> : <Home />}
           exact
-        />
+        /> */}
 
         {/* <Route
             path="/profile/:id"
@@ -115,7 +115,7 @@ const App = () => {
         {/* <Route path="/profile/:id" element={<Profile />} /> */}
         {/* <UserRoute path="/profile/:id" element={<Profile />} /> */}
         <Route path="/error" element={<ErrorComponent />} />
-        <Route path="/orders" element={<Orders />} />
+        <Route path="/" element={<Orders />} />
         <Route path="/order/:id" element={<SingleOrder />} />
         <Route
           path="/signin"

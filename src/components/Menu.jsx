@@ -149,7 +149,7 @@ const Menu = () => {
         //   });
         // }}
         className={` w-4/12 p-5 border-2 cursor-pointer flex flex-col items-center justify-between ${
-          route === "orders"
+          route === ""
             ? "border-coral-red bg-white text-coral-red"
             : "border-white bg-coral-red text-white"
         } transition-all duration-200`}

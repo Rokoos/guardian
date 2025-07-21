@@ -27,7 +27,7 @@ const Nav = () => {
             <div className=" flex justify-end  space-x-4">
               <Link
                 className={`${
-                  route === "orders"
+                  route === ""
                     ? "text-coral-red bg-white"
                     : "text-white bg-coral-red"
                 } px-3 py-2 rounded-md text-md font-bold `}
